@@ -1,0 +1,53 @@
+📊 Newton Divided Difference Interpolation in Excel
+This project implements the Newton Divided Difference method using Microsoft Excel for numerical data interpolation. The process includes constructing divided difference tables, developing Newton interpolation polynomials up to the fourth order, and estimating function values at a specific point.
+
+Dataset used:
+x	f(x)
+1	1.5
+3	10
+5	15
+7	21
+9	30
+The objective of this project is to understand the application of numerical methods in estimating function values from discrete data points.
+
+Method
+The Newton Interpolation Polynomial is given by:
+Pn(x)=f[x1]+(x−x1)f[x2,x1]+(x−x1)(x−x2)f[x3,x2,x1]+⋯
+
+Divided difference coefficients obtained:
+Coefficient	Value
+f[x₂,x₁]	4.25
+f[x₃,x₂,x₁]	-0.4375
+f[x₄,x₃,x₂,x₁]	0.09375
+f[x₅,x₄,x₃,x₂,x₁]	-0.006510417
+
+Result
+Interpolation at:
+x=4
+Results:
+Polynomial	Value
+P₁(4)	14.25
+P₂(4)	12.9375
+P₃(4)	12.65625
+P₄(4)	12.59765625
+
+Final interpolation result:
+P4(4)=12.59765625
+	​
+
+Tools Used:
+Microsoft Excel
+Newton Divided Difference Method
+Numerical Analysis
+
+Learning Outcomes
+Through this project, I learned:
+Constructing divided difference tables
+Developing Newton interpolation polynomials
+Applying numerical methods in Excel
+Estimating unknown function values from existing data
+Improving analytical and problem-solving skills
+
+Author:
+Oktaviani Eka Putri
+Statistics Student | Data Enthusiast | Numerical Methods Learner
